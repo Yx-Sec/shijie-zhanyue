@@ -1,0 +1,53 @@
+{
+  "package": "com.hxz.startycoon",
+  "name": "弑界·斩月",
+  "versionName": "1.0.0",
+  "versionCode": 8,
+  "appCategory": [
+    "games"
+  ],
+  "icon": "/assets/images/logo.png",
+  "features": [
+    {
+      "name": "system.storage"
+    },
+    {
+      "name": "system.router"
+    },
+    {
+      "name": "system.device"
+    }
+  ],
+  "deviceTypeList": [
+    "watch-square",
+    "watch-round"
+  ],
+  "config": {
+    "designWidth": 466,
+    "debug": true
+  },
+  "router": {
+    "entry": "pages/Home",
+    "pages": {
+      "pages/Home": {
+        "component": "index",
+        "followHand": "disable"
+      },
+      "pages/Battle": {
+        "component": "index",
+        "followHand": "disable"
+      },
+      "pages/Shop": {
+        "component": "index",
+        "followHand": "disable"
+      }
+    }
+  },
+  "display": {
+    "backgroundColor": "#07060f"
+  },
+  "distrubuteRules": {
+    "minAPILevel": 1
+  },
+  "minPlatformVersion": 1070
+}
